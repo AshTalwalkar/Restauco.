@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restauco.</title>
+    <link rel="stylesheet" href="css/Restauco.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="bg-warning-subtle">
+      <nav class="navbar navbar-expand-lg container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="images/logo.png.webp" class="img-fluid ms-3" alt=""
+        /></a>
+
+        <div class=" navbar-collapse mt-4 h6" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active me-4">
+              <a class="nav-link text-dark fw-bold fs-6" href="#">Home </a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link text-dark fw-bold fs-6" href="#">Menu</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link text-dark fw-bold fs-6" href="#">About</a>
+            </li>
+            <div class="dropdown nav-item me-4" id="mouseover1">
+              <a
+                class="nav-link text-dark fw-bold fs-6"
+                data-bs-toggle="dropdown"
+                
+               
+                >Blog</a
+              >
+              <ul class="dropdown-menu bg-warning">
+                <li><a class="nav-link" href="">Link1</a></li>
+                <li><a class="nav-link" href="">Link2</a></li>
+                <li><a class="nav-link" href="">Link3</a></li>
+              </ul>
+            </div>
+            <li class="nav-item me-4">
+              <a class="nav-link text-dark fw-bold fs-6" href="#">Contact</a>
+            </li>
+          </ul>
+         <div class="d-flex ms-auto">
+              <a class="text-decoration-none text-white text-end fw-bold fs-5 mt-2" style="border-bottom: 4px solid orangered;" href="">Book a table</a>
+            
+              <a
+                class="btn btn-warning btn-lg ms-4 me-5  rounded-pill text-white"
+                href=""
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-telephone"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+                  />
+                </svg>
+               <span> +91 8605157569</a
+              >
+            </div>
+          
+        </div>
+      </nav>
+      <div class="d-flex">
+        <div class="container col-6" id="content">
+          <h1 class="ms-5 fw-bold">
+            Meet Eat & Enjoy <br />
+            the true taste
+          </h1>
+          <p class="ms-5 fs-4">
+            Making Reservation at Delicious restaurant is easy and take just a
+            couple of of minutes.
+          </p>
+          <button
+            type="button"
+            id="menubtn"
+            class="btn btn-danger btn-lg rounded-pill text-white fw-bold fs-5 ms-5"
+          >
+            Our Menu
+          </button>
+          <button class="btn text-danger fw-bold fs-5 ms-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="35"
+              height="35"
+              fill="currentColor"
+              class="bi bi-play"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"
+              />
+            </svg>
+            Watch Video
+          </button>
+        </div>
+        <div class="col-6" >
+          <img
+            src="images/h1_hero1.jpg.webp"
+            id="heroimg"
+            class="img-fluid z-n1"
+            alt=""
+            style="margin-top: -22%"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- section -->
+    <section class="container-fluid">
+      <h1 class="text-center fw-bold">Best way to eat healthy food</h1>
+      <p class="text-center fs-5">
+        Making a reservation at Délicious restaurant is easy and takes just a
+        <br />
+        couple of minutes
+      </p>
+
+      <div class="row">
+        <div class="card col-12 col-md-6 col-lg-4">
+          <div class="card-body">
+            <h4 class="card-title text-center">
+              <img class="mt-5 img-fluid" src="images/services1.svg" alt="" />
+            </h4>
+            <h3 class="text-center mt-4">
+              <a
+                href="#"
+                class="card-link fw-bold text-decoration-none text-dark"
+                >Healthy Meal</a
+              >
+            </h3>
+
+            <p class="card-text text-center text-secondary mt-4 mb-4">
+              Making a reservation at Délicious <br />
+              restaurant is easy and takes just a <br />
+              couple of minutes.
+            </p>
+          </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-4">
+          <div class="card-body">
+            <h4 class="card-title text-center">
+              <img class="mt-5 img-fluid" src="images/services1.svg" alt="" />
+            </h4>
+            <h3 class="text-center mt-4">
+              <a
+                href="#"
+                class="card-link fw-bold text-decoration-none text-dark"
+                >Healthy Meal</a
+              >
+            </h3>
+
+            <p class="card-text text-center text-secondary mt-4 mb-4">
+              Making a reservation at Délicious <br />
+              restaurant is easy and takes just a <br />
+              couple of minutes.
+            </p>
+          </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-4">
+          <div class="card-body">
+            <h4 class="card-title text-center">
+              <img class="mt-5 img-fluid" src="images/services1.svg" alt="" />
+            </h4>
+            <h3 class="text-center mt-4">
+              <a
+                href="#"
+                class="card-link fw-bold text-decoration-none text-dark"
+                >Healthy Meal</a
+              >
+            </h3>
+
+            <p class="card-text text-center text-secondary mt-4 mb-4">
+              Making a reservation at Délicious <br />
+              restaurant is easy and takes just a <br />
+              couple of minutes.
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="container row p-5 w-100" id="cards">
+        <div class="card col-4">
+          <div class="card-body">
+            <h4 class="card-title text-center">
+              <img class="mt-5 img-fluid" src="images/services1.svg" alt="" />
+            </h4>
+            <h3 class="text-center mt-4">
+              <a
+                href="#"
+                class="card-link fw-bold text-decoration-none text-dark"
+                >Healthy Meal</a
+              >
+            </h3>
+
+            <p class="card-text text-center text-secondary mt-4 mb-4">
+              Making a reservation at Délicious <br />
+              restaurant is easy and takes just a <br />
+              couple of minutes.
+            </p>
+          </div>
+        </div>
+        <div class="card col-4 ms-3">
+          <div class="card-body">
+            <h4 class="card-title text-center">
+              <img class="mt-5 img-fluid" src="images/services2.svg" alt="" />
+            </h4>
+            <h3 class="text-center mt-4">
+              <a
+                href="#"
+                class="card-link fw-bold text-decoration-none text-dark"
+                >Fast Foos</a
+              >
+            </h3>
+
+            <p class="card-text text-center text-secondary mt-4 mb-4">
+              Making a reservation at Délicious <br />
+              restaurant is easy and takes just a <br />
+              couple of minutes.
+            </p>
+          </div>
+        </div>
+        <div class="card col-4 ms-3">
+          <div class="card-body">
+            <h4 class="card-title text-center">
+              <img class="mt-5 img-fluid " src="images/services3.svg" alt="" />
+            </h4>
+            <h3 class="text-center mt-4">
+              <a
+                href="#"
+                class="card-link fw-bold text-decoration-none text-dark"
+                >Delicious Coffee</a
+              >
+            </h3>
+
+            <p class="card-text text-center text-secondary mt-4">
+              Making a reservation at Délicious <br />
+              restaurant is easy and takes just a <br />
+              couple of minutes.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="populardish" class="" style="background-color: rgb(116, 75, 46);">
+        <div class="row g-0">
+        <div class="container ms-5 col-6">
+        <p class="text-white h1 ms-5  mt-5">Most Popular Dishes </p>
+        <p class="text-secondary ms-5 fs-5">Making a reservation at Délicious restaurant is easy and takes <br> just a couple of minutes.</p>
+      </div>
+      <div  class=" col-2 "><button class="btn btn-outline-warning mt-5  rounded-pill btn-lg text-white " id="ResponsiveBTN">Full Menu</button></div>
+      </div>
+      <div class="navbar navbar-expand-lg ">
+        <div class="container border-bottom">
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active fs-5 fw-bold  text-warning" aria-current="page" href="#">Breakfast</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 fw-bold text-white ms-5" href="#">Lunches</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 fw-bold text-white ms-5" href="#">Dinner</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 fw-bold text-white ms-5" href="">Drinks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 fw-bold text-white ms-5" href="">Fastfood</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+        <hr >
+      </div>
+      
+      <div class="container d-flex mt-5 ">
+        <div
+        id="carouselExampleControls"
+        class="carousel carousel-dark slide mt-5 mb-5"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner" id="cardsResponsive">
+          <div class="carousel-item active">
+            <div
+              class="card-wrapper container-sm d-flex justify-content-around"
+            >
+              <div class="card col-4 text-center" id="cardsResponsive">
+                <div class="text-center mt-5">
+                  <img
+                    src="images/pro-items1.jpg.webp"
+                    class="card-img-top img-fluid w-50"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                    <p class="card-title text-center h3 fw-bolder">Tuna Stick</p>
+                  <p class="card-text text-center text-secondary fs-5">
+                    Making a reservation at Délicious restaurant is easy and
+                    
+                  </p>
+                 
+                  <a href="#" class="btn btn-outline-warning mt-3 float-center text-dark" >Order Now</a>
+                </div>
+              </div>
+              <div class="card text-center col-4 ms-4" id="cardsResponsive">
+                <div class="text-center mt-5">
+                  <img
+                    src="images/pro-items2.jpg.webp"
+                    class="card-img-top img-fluid w-50"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                    <p class="card-title text-center h3 fw-bolder">Tuna Stick</p>
+                  <p class="card-text text-center text-secondary fs-5">
+                    Making a reservation at Délicious restaurant is easy and
+                    
+                  </p>
+                  <a href="#" class="btn btn-outline-warning mt-3 float-center text-dark" >Order Now</a>
+                  
+                </div>
+              </div>
+              <div class="card text-center col-4 ms-4" id="cardsResponsive">
+                <div class="text-center mt-5">
+                  <img
+                    src="images/pro-items3.jpg.webp"
+                    class="card-img-top img-fluid w-50"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                    <p class="card-title text-center h3 fw-bolder">Tuna Stick</p>
+                  <p class="card-text text-center text-secondary fs-5">
+                    Making a reservation at Délicious restaurant is easy and
+                    
+                  </p>
+                  <a href="#" class="btn btn-outline-warning mt-3 float-center text-dark" >Order Now</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="card-wrapper container-sm row justify-content-around"
+            >
+              <div class="card text-center col-4" id="cardsResponsive">
+                <div class="text-center mt-5">
+                  <img
+                    src="images/pro-items1.jpg.webp"
+                    class="card-img-top img-fluid w-50"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                    <p class="card-title text-center h3 fw-bolder">Tuna Stick</p>
+                  <p class="card-text text-center text-secondary fs-5">
+                    Making a reservation at Délicious restaurant is easy and
+                    
+                  </p>
+                 
+                  <a href="#" class="btn btn-outline-warning mt-3 float-center text-dark" >Order Now</a>
+                </div>
+              </div>
+              <div class="card text-center col-4 ms-4" id="cardsResponsive">
+                <div class="text-center mt-5">
+                  <img
+                    src="images/pro-items2.jpg.webp"
+                    class="card-img-top img-fluid w-50"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                    <p class="card-title text-center h3 fw-bolder">Tuna Stick</p>
+                  <p class="card-text text-center text-secondary fs-5">
+                    Making a reservation at Délicious restaurant is easy and
+                    
+                  </p>
+                 
+                  
+                </div>
+              </div>
+              <div class="card text-center col-4 ms-4" id="cardsResponsive">
+                <div class="text-center mt-5">
+                  <img
+                    src="images/pro-items3.jpg.webp"
+                    class="card-img-top img-fluid w-50"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                    <p class="card-title text-center h3 fw-bolder">Tuna Stick</p>
+                  <p class="card-text text-center text-secondary fs-5">
+                    Making a reservation at Délicious restaurant is easy and
+                    
+                  </p>
+                  <a href="#" class="btn btn-outline-warning mt-3 float-center text-dark" >Order Now</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="card-wrapper container-sm row justify-content-around"
+            >
+              <div class="card text-center col-4" id="cardsResponsive">
+                <div class="text-center mt-5">
+                  <img
+                    src="images/pro-items1.jpg.webp"
+                    class="card-img-top img-fluid w-50"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                    <p class="card-title text-center h3 fw-bolder">Tuna Stick</p>
+                  <p class="card-text text-center text-secondary fs-5">
+                    Making a reservation at Délicious restaurant is easy and
+                    
+                  </p>
+                  <a href="#" class="btn btn-outline-warning mt-3 float-center text-dark" >Order Now</a>
+                  
+                </div>
+              </div>
+              <div class="card text-center col-4 ms-4" id="cardsResponsive">
+                <div class="text-center mt-5">
+                  <img
+                    src="images/pro-items2.jpg.webp"
+                    class="card-img-top img-fluid w-50"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                    <p class="card-title text-center h3 fw-bolder">Tuna Stick</p>
+                  <p class="card-text text-center text-secondary fs-5">
+                    Making a reservation at Délicious restaurant is easy and
+                    
+                  </p>
+                 
+                  <a href="#" class="btn btn-outline-warning mt-3 float-center text-dark" >Order Now</a>
+                </div>
+              </div>
+              <div class="card text-center col-4 ms-4" id="cardsResponsive">
+                <div class="text-center mt-5">
+                  <img
+                    src="images/pro-items3.jpg.webp"
+                    class="card-img-top img-fluid w-50"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                    <p class="card-title text-center h3 fw-bolder">Tuna Stick</p>
+                  <p class="card-text text-center text-secondary fs-5">
+                    Making a reservation at Délicious restaurant is easy and
+                    
+                  </p>
+                  <a href="#" class="btn btn-outline-warning mt-3 float-center text-dark" >Order Now</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" style="margin-right: 70%;" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon " style="margin-left: 80%;" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    </section>
+
+    <aside>
+      <div class="row container mt-5" id="formsec">
+        
+        <div class="col-6">
+          <img src="images/woner.jpg.webp" class="img-fluid rounded" alt="">
+        </div>
+        <div class="col-1"></div>
+        <div class="col-4 ms-5" id="btform">
+          <p class="h1 fw-bolder  mt-3">Book a Table</p>
+          <p class="text-secondary mt-3  fs-5">Making a reservation at Délicious restaurant is easy and takes just a couple of minutes.</p>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label" ></label>
+            <input type="number" class="form-control rounded-pill h-75" id="exampleFormControlInput1"  placeholder="Number of Guest">
+          </div>
+          <div class="mb-3 d-flex ">
+            <label for="exampleFormControlInput1" class="form-label" ></label>
+            <input type="number" class="form-control rounded-pill  mt-3 h-5" id="exampleFormControlInput1"  placeholder="Date">
+            <label for="exampleFormControlInput1" class="form-label" ></label>
+            <input type="number" class="form-control rounded-pill ms-5  mt-3 h-5" id="exampleFormControlInput1"  placeholder="Dinner">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
+          </div>
+          <button class="btn btn-warning btn-md w-100 text-white">Send Request</button>
+        </div>
+      </div>
+
+      <div id="professionalist" class="mt-5">
+        <p class="text-center h1 fw-bold">What our customer sayes</p>
+        <p class="text-center text-secondary fs-5 mt-3">Making a reservation at Délicious restaurant is easy and takes just a couple <br> of minutes.</p>
+        <div id="carouselExampleControls" class="carousel carousel-dark slide mt-5" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card-wrapper container-sm d-flex  justify-content-around ">
+              <div class="card  text-center" style="width: 24rem;">
+                <div class="text-center mt-5">
+          <img src="images/customer1.jpg.webp" class="card-img-top img-fluid   w-25 "  alt="..."></div>
+          <div class="card-body">
+            
+            <p class="text-center text-secondary mt-5 ">Making a reservation at Délicious restaurant is easy and takes just a
+              couple of minutes midst tree form seas.</p>
+             <hr class="mt-4">
+              <p class="card-title fs-5">-Robert</p>
+            
+          </div>
+        </div><div class="card text-center" style="width: 24rem;">
+          <div class="text-center mt-5">
+          <img src="images/customer2.jpg.webp" class="card-img-top img-fluid   w-25 " alt="..."></div>
+          <div class="card-body">
+            <p class="text-center text-secondary mt-5 ">Making a reservation at Délicious restaurant is easy and takes just a
+              couple of minutes midst tree form seas.</p>
+               <hr class="mt-4">
+              <p class="card-title fs-5">-Robert</p>
+            
+          </div>
+                </div>
+                <div class="card text-center" style="width: 24rem;">
+                  <div class="text-center mt-5">
+          <img src="images/customer3.jpg.webp" class="card-img-top img-fluid w-25 " alt="...">  </div>
+          <div class="card-body">
+            <p class="text-center text-secondary mt-5 ">Making a reservation at Délicious restaurant is easy and takes just a
+              couple of minutes midst tree form seas.</p>
+               <hr class="mt-4">
+              <p class="card-title fs-5">-Robert</p>
+            
+          </div>
+        </div>
+        </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-wrapper container-sm d-flex   justify-content-around">
+              <div class="card text-center " style="width: 24rem;">
+                <div class="text-center mt-5">
+          <img src="images/customer1.jpg.webp" class="card-img-top img-fluid w-25" alt="...">  </div>
+          <div class="card-body">
+            <p class="text-center text-secondary mt-5 ">Making a reservation at Délicious restaurant is easy and takes just a
+              couple of minutes midst tree form seas.</p>
+              <hr class="mt-4">
+            <p class="card-title  fs-5">-Robert</p>
+            
+          </div>
+        </div><div class="card text-center" style="width: 24rem;">
+          <div class="text-center mt-5">
+          <img src="images/customer2.jpg.webp" class="card-img-top img-fluid w-25" alt="...">  </div>
+          <div class="card-body">
+            <p class="text-center text-secondary mt-5 ">Making a reservation at Délicious restaurant is easy and takes just a
+              couple of minutes midst tree form seas.</p>
+               <hr class="mt-4">
+              <p class="card-title fs-5">-Robert</p>
+            
+            
+          </div>
+                </div>
+                <div class="card text-center" style="width: 24rem;">
+                  <div class="text-center mt-5">
+          <img src="images/customer3.jpg.webp" class="card-img-top img-fluid w-25" alt="...">  </div>
+          <div class="card-body">
+            <p class="text-center text-secondary mt-5 ">Making a reservation at Délicious restaurant is easy and takes just a
+              couple of minutes midst tree form seas.</p>
+               <hr class="mt-4">
+              <p class="card-title fs-5">-Robert</p>
+            
+            
+          </div>
+        </div>
+            </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-wrapper container-sm d-flex  justify-content-around">
+              <div class="card text-center" style="width: 24rem;">
+                <div class="text-center mt-5">
+          <img src="images/customer1.jpg.webp" class="card-img-top img-fluid w-25" alt="...">  </div>
+          <div class="card-body">
+            <p class="text-center text-secondary mt-5 ">Making a reservation at Délicious restaurant is easy and takes just a
+              couple of minutes midst tree form seas.</p>
+               <hr class="mt-4">
+              <p class="card-title fs-5">-Robert</p>
+            
+          </div>
+        </div>
+                <div class="card text-center" style="width: 24rem;">
+                  <div class="text-center mt-5">
+          <img src="images/customer2.jpg.webp" class="card-img-top img-fluid w-25" alt="...">  </div>
+          <div class="card-body">
+            <p class="text-center text-secondary mt-5 ">Making a reservation at Délicious restaurant is easy and takes just a
+              couple of minutes midst tree form seas.</p>
+              <hr class="mt-4">
+            <p class="card-title mb-3 fs-5"><svg xmlns="http://www.w3.org/2000/svg " width="16" height="16" fill="currentColor" class="bi bi-star-fill " viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>-Robert</p>
+            
+          </div>
+                </div>
+                <div class="card text-center" style="width: 24rem;">
+                  <div class="text-center mt-5">
+          <img src="images/customer3.jpg.webp" class="card-img-top img-fluid w-25" alt="...">  </div>
+          <div class="card-body">
+            <p class="text-center text-secondary mt-5 ">Making a reservation at Délicious restaurant is easy and takes just a
+              couple of minutes midst tree form seas.</p>
+               <hr class="mt-4">
+              <p class="card-title fs-5">-Robert</p>
+            
+          </div>
+        </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      </div>
+    </aside>
+
+<footer class="mt-5">
+  <div id="footimg" class="row g-0">
+    <img src="images/instra2.jpg.webp" class="img-fluid col-3" alt="">
+    <img src="images/instra1.jpg.webp" class="img-fluid col-3 " alt="">
+    <img src="images/instra2.jpg.webp" class="img-fluid col-3" alt="">
+    <img src="images/instra3.jpg.webp" class="img-fluid col-3" alt="">
+    <button class="btn btn-white fs-5 text-info  rounded-pill" style="margin-left: -53%;">@restauco</button>
+  </div>
+
+  <div id="restFoot">
+<!-- Footer -->
+<div class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Section: Social media -->
+
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <div class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <img src="images/logo.png.webp" class="img-fluid" alt="">
+          <p class="mt-4">
+            Land behold it created good saw after she'd Our set living. Signs midst dominion creepeth morning laboris nisi ufsit aliquip.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 ">
+          <!-- Links -->
+          <p class=" mb-4 text-dark fs-5 ">
+            Quick Links
+          </p>
+          
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Home</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">About</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none" >Services</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Blog</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Contact</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <p class=" mb-4 text-dark fs-5 ">
+            Cakes 
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Blackforest</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Bodhubon</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none" >Rongdhonu</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Meghrong</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <p class=" mb-4 text-dark fs-5 ">
+             Contact Us
+          </p>
+          <p><i class="fas fa-home me-3"></i>76/A, Green Lane, Dhanmondi, NYC</p>
+         
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </div>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4 fs-5" style="background-color: rgba(0, 0, 0, 0.05);">
+    Copyright ©2025   All rights reserved | This template is made with  by Colorlib
+    
+  </div>
+  <!-- Copyright -->
+</div>
+<!-- Footer -->
+  </div>
+</footer>
+
+
+
+
+
+
+  </body>
+</html>

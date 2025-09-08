@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.nav-link:hover{
+ /* text-decoration: 1px underline orange ; */
+    color: orangered;
+}
+#mouseover1 ul li a:hover{
+    margin-left: 2%;
+}
+#content h1{
+    
+    font-size: 4em;
+    margin-top: 15%;
+}
+#menubtn{
+   height: 70px;
+   width: 180px;
+}
+#heroimg{
+  height: 100vh;
+  width: 95vw;
+}
+section{
+    margin-top: 7%;
+}
+/* #cards img{
+    margin-left: 140px;
+} */
+.card-body:hover{
+    color: orangered;
+}
+#cards h3:hover{
+    color: orangered;
+}
+.nav-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: orangered;
+    transition: width .3s;
+    
+}
+.nav-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+    /* color: orangered; */
+}
+
+#imgop{
+    height: 45%;
+    width: 45%;
+    margin: 12% 0 0 28%;
+}
+.input-group-append {
+    cursor: pointer;
+  }
+  #btform{
+    margin-left: 40%;
+  }
+  #restFoot a:after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: orangered;
+    transition: width .3s;
+  }
+  #restFoot a:hover::after {
+    width: 25%;
+    transition: width .3s;
+    color: orangered;
+}
+#restFoot a:hover{
+    color: orangered;
+}
+#book{
+    display: flex;
+   justify-content: end;
+}
+/* @media only screen and (max-width: 530px) {
+   
+    #cardsResponsive {
+        width: 15rem;
+        margin-left: 20px;
+    }
+
+ #ResponsiveBTN{
+   justify-content: center;
+ }
+  } */
+  @media only screen and (max-width: 420px) {
+    #ResponsiveBTN{
+        display: none !important;}
+  }
